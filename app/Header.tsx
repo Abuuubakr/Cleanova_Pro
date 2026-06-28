@@ -87,9 +87,9 @@ const Header = () => {
         closable={false}
         onClose={onClose}
         open={open}
-        className="bg-[#3C78C9]"
+        styles={{ body: { backgroundColor: '#3C78C9' } }}
       >
-        <div className="flex flex-col justify-between h-full font-[Inter]">
+        <div className="flex flex-col justify-between h-full font-[Inter] text-white">
           <div>
             <div className="p-0">
               <p className="text-[14px] font-black italic">CLEANOVA PRO</p>
@@ -105,27 +105,27 @@ const Header = () => {
             <ul className="mt-5 font-extrabold space-y-2">
               <li className="">
                 <Link href={"./"}>
-                  <p className="text-black">Home</p>
+                  <p className="text-white">Home</p>
                 </Link>
               </li>
               <li>
                 <Link href={"./Servicess"}>
-                  <p className="text-black">Services</p>
+                  <p className="text-white">Services</p>
                 </Link>
               </li>
               <li>
                 <Link href={"./Service_area"}>
-                  <p className="text-black">Service area</p>
+                  <p className="text-white">Service area</p>
                 </Link>
               </li>
               <li>
                 <Link href={"./About"}>
-                  <p className="text-black">About us</p>
+                  <p className="text-white">About us</p>
                 </Link>
               </li>
               <li>
                 <Link href={"./BlogUi"}>
-                  <p className="text-black">Blog</p>
+                  <p className="text-white">Blog</p>
                 </Link>
               </li>
             </ul>

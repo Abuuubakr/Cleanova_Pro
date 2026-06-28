@@ -8,7 +8,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   const showDrawer = () => {
-    setOpen(true);
+    setOpen(!open);
   };
 
   const onClose = () => {
@@ -49,9 +49,11 @@ const Header = () => {
                 <Link href={"./BlogUi"}>Blog</Link>
               </li>
               <li>
-                <button className="bg-black py-1.25 px-5.5 text-white rounded-lg">
-                  Free quote
-                </button>
+                <Link href={"./State"}>
+                  <button className="bg-black py-1.25 px-5.5 text-white rounded-lg cursor-pointer">
+                    Free quote
+                  </button>
+                </Link>
               </li>
             </ul>
           </div>
@@ -87,7 +89,7 @@ const Header = () => {
         closable={false}
         onClose={onClose}
         open={open}
-        styles={{ body: { backgroundColor: '#3C78C9' } }}
+        styles={{ body: { backgroundColor: "#3C78C9" } }}
       >
         <div className="flex flex-col justify-between h-full font-[Inter] text-white">
           <div>
@@ -104,27 +106,27 @@ const Header = () => {
             </div>
             <ul className="mt-5 font-extrabold space-y-2">
               <li className="">
-                <Link href={"./"}>
+                <Link onClick={showDrawer} href={"./"}>
                   <p className="text-white">Home</p>
                 </Link>
               </li>
               <li>
-                <Link href={"./Servicess"}>
+                <Link onClick={showDrawer} href={"./Servicess"}>
                   <p className="text-white">Services</p>
                 </Link>
               </li>
               <li>
-                <Link href={"./Service_area"}>
+                <Link onClick={showDrawer} href={"./Service_area"}>
                   <p className="text-white">Service area</p>
                 </Link>
               </li>
               <li>
-                <Link href={"./About"}>
+                <Link onClick={showDrawer} href={"./About"}>
                   <p className="text-white">About us</p>
                 </Link>
               </li>
               <li>
-                <Link href={"./BlogUi"}>
+                <Link onClick={showDrawer} href={"./BlogUi"}>
                   <p className="text-white">Blog</p>
                 </Link>
               </li>

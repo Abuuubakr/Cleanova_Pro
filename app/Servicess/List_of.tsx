@@ -2,6 +2,7 @@ import React from "react";
 import Line from "../Line";
 import Image from "next/image";
 import card from "../../public/images/card.png";
+import Animation_Up from "../Animation_Up";
 
 const List_of = () => {
   return (
@@ -19,40 +20,42 @@ const List_of = () => {
             bring you better experience with the help of our love.
           </p>
         </div>
-        <div className="mt-8.75 grid grid-cols-4 max-[800px]:grid-cols-2 max-[500px]:grid-cols-1 gap-6">
-          <div>
-            {" "}
-            <Image src={card} alt="img" className="w-full h-full" />
+        <Animation_Up>
+          <div className="mt-8.75 grid grid-cols-4 max-[800px]:grid-cols-2 max-[500px]:grid-cols-1 gap-6">
+            <div>
+              {" "}
+              <Image src={card} alt="img" className="w-full h-full" />
+            </div>
+            <div>
+              {" "}
+              <Image src={card} alt="img" className="w-full h-full" />
+            </div>
+            <div>
+              {" "}
+              <Image src={card} alt="img" className="w-full h-full" />
+            </div>
+            <div>
+              {" "}
+              <Image src={card} alt="img" className="w-full h-full" />
+            </div>
+            <div>
+              {" "}
+              <Image src={card} alt="img" className="w-full h-full" />
+            </div>
+            <div>
+              {" "}
+              <Image src={card} alt="img" className="w-full h-full" />
+            </div>
+            <div>
+              {" "}
+              <Image src={card} alt="img" className="w-full h-full" />
+            </div>
+            <div>
+              {" "}
+              <Image src={card} alt="img" className="w-full h-full" />
+            </div>
           </div>
-          <div>
-            {" "}
-            <Image src={card} alt="img" className="w-full h-full" />
-          </div>
-          <div>
-            {" "}
-            <Image src={card} alt="img" className="w-full h-full" />
-          </div>
-          <div>
-            {" "}
-            <Image src={card} alt="img" className="w-full h-full" />
-          </div>
-          <div>
-            {" "}
-            <Image src={card} alt="img" className="w-full h-full" />
-          </div>
-          <div>
-            {" "}
-            <Image src={card} alt="img" className="w-full h-full" />
-          </div>
-          <div>
-            {" "}
-            <Image src={card} alt="img" className="w-full h-full" />
-          </div>
-          <div>
-            {" "}
-            <Image src={card} alt="img" className="w-full h-full" />
-          </div>
-        </div>
+        </Animation_Up>
       </div>
     </div>
   );

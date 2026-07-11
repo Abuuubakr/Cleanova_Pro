@@ -22,7 +22,7 @@ const page = () => {
             <div className="min-[1000px]:w-[75%] w-full">
               <Animation_Up>
                 <div>
-                  <Image src={img} alt="img" className="w-full" />
+                  <Image src={img} alt="card_2" className="w-full" />
                 </div>
                 <div className="mt-7.5">
                   <p className="text-[32px] font-extrabold">
@@ -116,7 +116,7 @@ const page = () => {
                       className="p-3 rounded-xl bg-[#F4F8FC] space-y-2.5 max-[800px]:space-y-5"
                     >
                       <div>
-                        <Image src={img1} alt="img" className="w-full" />
+                        <Image src={img1} alt="card_1" className="w-full" />
                       </div>
                       <div>
                         <p className="text-[18px] font-extrabold leading-5">

@@ -31,7 +31,7 @@ const Reliable_affordable = () => {
             <div className="text-[15px] text-[#505050] font-bold space-y-[9.5px]">
               <div className="space-x-2.5 flex">
                 <div>
-                  <Image src={frame} alt="img" />
+                  <Image src={frame} alt="frame" />
                 </div>
                 <div>
                   <p>Professional cleaners for commercial environments</p>
@@ -39,7 +39,7 @@ const Reliable_affordable = () => {
               </div>
               <div className="space-x-2.5 flex">
                 <div>
-                  <Image src={frame} alt="img" />
+                  <Image src={frame} alt="frame" />
                 </div>
                 <div>
                   <p>Flexible cleaning schedules to suit business hours</p>
@@ -47,7 +47,7 @@ const Reliable_affordable = () => {
               </div>
               <div className="space-x-2.5 flex">
                 <div>
-                  <Image src={frame} alt="img" />
+                  <Image src={frame} alt="frame" />
                 </div>
                 <div>
                   <p>High hygiene standards for shared and public areas</p>
@@ -55,7 +55,7 @@ const Reliable_affordable = () => {
               </div>
               <div className="space-x-2.5 flex">
                 <div>
-                  <Image src={frame} alt="img" />
+                  <Image src={frame} alt="frame" />
                 </div>
                 <div>
                   <p>Reliable service with consistent quality results</p>
@@ -64,7 +64,7 @@ const Reliable_affordable = () => {
             </div>
           </div>
           <div className="min-[1000px]:w-[45%] w-full max-[1000px]:mb-10">
-            <Image src={img} alt="img" className="w-full" />
+            <Image src={img} alt="frame" className="w-full" />
           </div>
         </div>
       </Animation_Up>

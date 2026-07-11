@@ -24,35 +24,35 @@ const List_of = () => {
           <div className="mt-8.75 grid grid-cols-4 max-[800px]:grid-cols-2 max-[500px]:grid-cols-1 gap-6">
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
           </div>
         </Animation_Up>

@@ -1,7 +1,7 @@
 import React from "react";
 
 type ContactProps = {
-  className?: String;
+  className?: string;
 };
 
 

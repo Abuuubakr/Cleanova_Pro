@@ -39,7 +39,7 @@ const Team = () => {
             key={i}
           >
             <div className="bg-[#3C78C9] p-8 self-stretch flex items-center rounded-l-[13px]">
-              <Image src={e.img} alt="img" className="w-10 h-10" />
+              <Image src={e.img} alt="vector_id" className="w-10 h-10" />
             </div>
             <div className="py-5.75 px-5">
               <p className="text-[18px] font-extrabold">{e.h1}</p>

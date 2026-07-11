@@ -26,10 +26,10 @@ const Making_accurate = () => {
       <div className="flex max-[800px]:w-[90%] m-auto">
         <div className="w-[25%] flex max-[800px]:hidden">
           <div className="w-full z-1 mt-6.25">
-            <Image src={girl2} alt="img" className="w-full h-120.5" />
+            <Image src={girl2} alt="girl2" className="w-full h-120.5" />
           </div>
           <div className="w-[75%] -ml-95">
-            <Image src={circle} alt="img" className="w-full h-120.5" />
+            <Image src={circle} alt="circle" className="w-full h-120.5" />
           </div>
         </div>
         <div className="space-y-8.5 min-[800px]:w-[75%] w-full">
@@ -47,19 +47,19 @@ const Making_accurate = () => {
           <div className="min-[800px]:hidden flex flex-col space-y-5.5">
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
             <div>
               {" "}
-              <Image src={card} alt="img" className="w-full h-full" />
+              <Image src={card} alt="card" className="w-full h-full" />
             </div>
           </div>
           <div className="flex  items-center justify-between max-[800px]:hidden">
@@ -76,15 +76,11 @@ const Making_accurate = () => {
               {services.map((item) => (
                 <SwiperSlide key={item.id}>
                   <div className="h-65 rounded-3xl shadow-lg overflow-hidden">
-                    <Image src={card} alt="img" className="w-full h-full" />
+                    <Image src={card} alt="card" className="w-full h-full" />
                   </div>
                 </SwiperSlide>
               ))}
             </Swiper>
-
-            {/* <button className="prevBtn absolute left-0 top-1/2 -translate-y-1/2 z-20 w-14 h-14 rounded-full bg-white shadow cursor-pointer">
-            ←
-          </button> */}
             <div className="w-[10%]">
               <button className="nextBtn   w-14 h-14 rounded-full bg-white shadow cursor-pointer">
                 →

@@ -20,7 +20,7 @@ const Client_Feedback = () => {
         {feedbacks.map((e) => (
           <div key={e} className="p-3 space-y-6 border border-[#EEEEEE] rounded-xl">
             <div>
-              <Image src={stars} alt="img" className="" />
+              <Image src={stars} alt="stars" />
             </div>
             <div>
               <p className="text-[15px] text-[#505050] leading-3.75">

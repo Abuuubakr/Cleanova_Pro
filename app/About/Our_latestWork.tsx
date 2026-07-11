@@ -16,16 +16,16 @@ const Our_latestWork = () => {
       </div>
       <div className="mt-6 grid grid-cols-4 max-[1000px]:grid-cols-2 max-[800px]:grid-cols-1 gap-5.5">
         <div className="max-[800px]:w-full">
-            <Image className="w-full" src={img} alt="img" />
+            <Image className="w-full" src={img} alt="image 5" />
         </div>
         <div className="max-[800px]:w-full">
-            <Image className="w-full" src={img} alt="img" />
+            <Image className="w-full" src={img} alt="image 5" />
         </div>
         <div className="max-[800px]:w-full">
-            <Image className="w-full" src={img} alt="img" />
+            <Image className="w-full" src={img} alt="image 5" />
         </div>
         <div className="max-[800px]:w-full">
-            <Image className="w-full" src={img} alt="img" />
+            <Image className="w-full" src={img} alt="image 5" />
         </div>
       </div>
     </div>

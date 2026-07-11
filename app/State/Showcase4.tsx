@@ -7,9 +7,9 @@ const Showcase4 = () => {
   return (
     <div className="pt-25 bg-linear-to-b from-[#D2E3F8] to-[#D2E3F8]">
       <div className="relative top-30">
-        <Image src={bg1} alt="img" className="w-full" />
+        <Image src={bg1} alt="background_1" className="w-full" />
         <div className="absolute inset-0 flex items-center justify-center -top-16">
-          <Image src={bg2} alt="img" className="w-full max-w-180" />
+          <Image src={bg2} alt="background_2" className="w-full max-w-180" />
         </div>
       </div>
       <div className="mx-auto  pb-11.75  rounded-[22px]  max-w-167.5 min-[800px]:mt-40">

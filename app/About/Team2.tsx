@@ -19,7 +19,7 @@ const Team2 = () => {
           </p>
         </div>
         <div>
-          <Image src={img} alt="img" />
+          <Image src={img} alt="image 11" />
         </div>
         <div className="mt-6">
           {cities.map((e) => (

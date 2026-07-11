@@ -38,10 +38,10 @@ const Showcase3 = () => {
         </div>
         <div className="min-[800px]:w-[40%]">
           <div className="">
-            <Image src={circle} alt="img" />
+            <Image src={circle} alt="circle" />
           </div>
           <div className="-mt-100">
-            <Image src={van} alt="img" />
+            <Image src={van} alt="van" />
           </div>
         </div>
       </div>

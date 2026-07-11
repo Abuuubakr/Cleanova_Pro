@@ -37,7 +37,7 @@ const Get_started = () => {
         {cards.map((e) => (
           <div key={e.id} className="rounded-3.75 flex flex-col pb-6.25">
             <div>
-              <Image src={img} alt="img" className="w-full" />
+              <Image src={img} alt="couch" className="w-full" />
             </div>
             <div className="w-full -mt-7.5">
               <div className="w-16.25 py-2 m-auto border-6 rounded-tr-[20px] border-white bg-[#A0C06A] text-center">

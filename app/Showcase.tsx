@@ -9,7 +9,7 @@ const Showcase = () => {
       <div className="w-[85%] m-auto bg-[#FFFFFFA6] rounded-[22px]  p-3 flex justify-between items-center max-[800px]:flex-col space-y-5.5">
         <div className="flex justify-between items-center max-[1200px]:flex-col min-[800px]:w-[50%]">
           <div className="max-[1200px]:m-auto">
-            <Image src={girl} alt="img" className="w-46.25" />
+            <Image src={girl} alt="girl" className="w-46.25" />
           </div>
           <div className="space-y-4 max-[1200px]:text-center max-[1200px]:mt-3">
             <div className="text-[15px] font-medium text-white">
